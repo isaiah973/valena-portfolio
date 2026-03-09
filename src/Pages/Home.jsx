@@ -6,7 +6,7 @@ import Services from "../Components/Services";
 function Home() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Services />
     </>

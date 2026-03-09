@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="absolute w-full flex items-center justify-between py-6 px-6 text-black font-[poppins] ">
+    <nav className=" w-full flex items-center justify-between py-4 px-6 text-black font-[poppins] ">
       <h1 className="text-xl font-semibold tracking-wide">Eventliving</h1>
 
       <ul className="hidden md:flex gap-10 text-md font-bold ">
