@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="w-full min-h-screen bg-[#F8F6F2] font-[Poppins]">
-      <div className="grid md:grid-cols-2 min-h-[calc(100vh-160px)]">
+      <div className="grid md:grid-cols-2 min-h-[calc(100vh-160px)] lg:px-14 ">
         {/* LEFT CONTENT */}
         <div className="flex items-center px-6 sm:px-10 md:px-16 lg:px-20">
           <div className="max-w-xl">
@@ -21,7 +21,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-[#C6A55E] text-white px-7 py-3.5 rounded-full text-sm font-medium hover:opacity-90 transition">
+              <button className="bg-[#0B3D2E] text-[#D4AF37] px-7 py-3.5 rounded-full text-sm font-medium hover:opacity-90 transition">
                 View Services
               </button>
             </div>
@@ -29,10 +29,10 @@ export default function Hero() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="flex items-end md:items-center justify-center px-6 pb-6 md:px-10 lg:px-16">
+        <div className="flex items-end md:items-center justify-center px-6 pb-6 lg:px-4">
           <div className="w-full max-w-md lg:max-w-lg overflow-hidden rounded-[28px] shadow-[0_20px_60px_rgba(0,0,0,0.08)] bg-white">
             <img
-              src="/images/valena.jpeg"
+              src="/images/hero.jpeg"
               alt="Valena Vincent"
               className="w-full h-[420px] sm:h-[520px] object-cover"
             />
