@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className=" w-full flex items-center justify-between bg-[#F8F6F2] sm:px-10 md:px-16 lg:px-32 text-black font-[poppins] ">
+    <nav className=" w-full flex items-center justify-between bg-[#F8F6F2] sm:px-10 md:px-16 lg:px-20 text-black font-[poppins] ">
       <div className="w-24">
         <img src="images/logo1.png" alt="" />
       </div>
