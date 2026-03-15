@@ -52,7 +52,7 @@ export default function Navbar() {
         </ul>
 
         {/* DESKTOP BUTTON */}
-        <button className="hidden lg:block bg-[#0B3D2E] text-[#D4AF37] px-6 py-3 rounded-full text-sm font-medium hover:bg-amber-50 hover:border hover:border-black hover:text-black transition">
+        <button className="hidden lg:block bg-green text-gold px-6 py-3 rounded-full text-sm font-medium hover:bg-amber-50 hover:border hover:border-black hover:text-black transition">
           Contact Now
         </button>
 
@@ -83,7 +83,7 @@ export default function Navbar() {
             PORTFOLIO
           </li>
 
-          <button className="mt-2 w-fit bg-[#0B3D2E] text-[#D4AF37] px-5 py-3 rounded-full text-sm font-medium hover:opacity-90 transition">
+          <button className="mt-2 w-fit bg-green text-gold px-5 py-3 rounded-full text-sm font-medium hover:opacity-90 transition">
             Contact Now
           </button>
         </div>
