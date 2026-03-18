@@ -27,7 +27,7 @@ export default function Hero() {
     <section className="relative w-full bg-bg font-[Poppins] overflow-hidden">
       <Navbar />
 
-      <div className="grid md:grid-cols-2 items-center min-h-[calc(100vh-90px)] px-5 sm:px-10 md:px-16 lg:px-14 xl:px-20 gap-10 md:gap-8 pb-14 md:pb-24">
+      <div className="grid md:grid-cols-2 items-start min-h-[calc(100vh-90px)] px-5 sm:px-10 md:px-16 lg:px-14 xl:px-20 gap-10 md:gap-8 pb-14 md:pb-24">
         {/* LEFT CONTENT */}
         <div className="flex items-center order-2 md:order-1">
           <div className="max-w-xl w-full">

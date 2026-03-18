@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="relative w-full bg-[#F8F6F2] px-5 sm:px-10 md:px-16 lg:px-20 py-4 font-[Poppins] z-50">
       <div className="flex items-center justify-between">
         {/* LOGO */}
-        <div className="w-20 sm:w-24 md:w-28 ml-[-30px]">
+        <div className="w-20 sm:w-24 md:w-28 md:ml-[-30px] ml-[-20px]">
           <img
             src="/images/logo1-removebg.png"
             alt="Logo"

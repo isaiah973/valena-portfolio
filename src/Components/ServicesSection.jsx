@@ -11,7 +11,7 @@ export default function ServicesSection() {
     },
     {
       title: "Event Planning / Coordination",
-      image: "/images/slide2.jpeg",
+      image: "/images/reception.jpeg",
       description:
         "Professional event coordination designed to create seamless and memorable celebrations for your guests.",
     },
@@ -23,7 +23,7 @@ export default function ServicesSection() {
     },
     {
       title: "Mocktail Catering",
-      image: "/images/slide4.jpeg",
+      image: "/images/slide6.jpeg",
       description:
         "Refreshing handcrafted mocktails styled to add colour, charm, and sophistication to your event.",
     },

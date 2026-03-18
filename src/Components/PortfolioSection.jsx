@@ -27,37 +27,55 @@ export default function PortfolioSection() {
       id: 4,
       title: "Wedding Setup Details",
       category: "Weddings",
-      image: "/images/weddingtable1.jpeg",
+      image: "/images/reception.jpeg",
     },
     {
       id: 5,
       title: "Chef Behind The Scenes",
       category: "Events",
-      image: "/images/portfolio-5.jpg",
+      image: "/images/valenawithflowers.jpeg",
     },
     {
       id: 6,
       title: "Plated Fine Dining",
-      category: "Canapés",
-      image: "/images/portfolio-6.jpg",
+      category: "Events",
+      image: "/images/pinktable1.jpeg",
     },
     {
       id: 7,
       title: "Signature Mocktail Bar",
       category: "Mocktails",
-      image: "/images/portfolio-7.jpg",
+      image: "/images/mock1.jpeg",
     },
     {
       id: 8,
       title: "Event Catering Setup",
       category: "Events",
-      image: "/images/portfolio-8.jpg",
+      image: "/images/slide5.jpeg",
     },
     {
       id: 9,
       title: "Reception Table Styling",
       category: "Weddings",
-      image: "/images/portfolio-9.jpg",
+      image: "/images/pinktable.jpeg",
+    },
+    {
+      id: 10,
+      title: "Scotch Eggs",
+      category: "Canapés",
+      image: "/images/slide2.jpeg",
+    },
+    {
+      id: 11,
+      title: "Rich Mini Beef Burgers",
+      category: "Canapés",
+      image: "/images/burger.jpeg",
+    },
+    {
+      id: 12,
+      title: "Scrispy Prawns with Sweet Chilli Sauce",
+      category: "Canapés",
+      image: "/images/prawn.jpeg",
     },
   ];
 
@@ -83,7 +101,7 @@ export default function PortfolioSection() {
             Portfolio
           </p>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-darkHeader mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-green mb-4">
             Crafted for elegant weddings, refined dining, and unforgettable
             celebrations
           </h2>
