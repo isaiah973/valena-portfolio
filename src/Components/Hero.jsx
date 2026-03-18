@@ -3,10 +3,14 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
   const images = [
-    "/images/hero.jpeg",
+    "/images/slide1.jpeg",
     "/images/slide2.jpeg",
+    "/images/weddingtable.jpeg",
     "/images/slide3.jpeg",
+    "/images/slide6.jpeg",
     "/images/slide4.jpeg",
+    "/images/weddingtable1.jpeg",
+    "/images/slide5.jpeg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,7 +24,7 @@ export default function Hero() {
   }, [images.length]);
 
   return (
-    <section className="relative w-full bg-[#F8F6F2] font-[Poppins] overflow-hidden">
+    <section className="relative w-full bg-bg font-[Poppins] overflow-hidden">
       <Navbar />
 
       <div className="grid md:grid-cols-2 items-center min-h-[calc(100vh-90px)] px-5 sm:px-10 md:px-16 lg:px-14 xl:px-20 gap-10 md:gap-8 pb-14 md:pb-24">
@@ -36,7 +40,7 @@ export default function Hero() {
               Wedding Event Caterer
             </h1>
 
-            <p className="text-sm sm:text-base lg:text-lg text-[#5F5F5F] leading-7 sm:leading-8 mb-8 max-w-lg">
+            <p className="text-sm sm:text-base lg:text-lg text-lightText leading-7 sm:leading-8 mb-8 max-w-lg">
               Elevate your special occasion with luxury canapés, beautifully
               prepared and professionally arranged to create a refined and
               memorable experience for every celebration.
@@ -83,7 +87,7 @@ export default function Hero() {
         </div>
 
         {/* DESKTOP / TABLET RIGHT IMAGE */}
-        <div className="hidden md:flex items-center justify-center order-1 md:order-2 pt-2 md:pt-0">
+        <div className="hidden md:flex items-center lg:justify-end justify-center order-1 md:order-2 pt-2 md:pt-0">
           <div className="relative w-full max-w-sm sm:max-w-md lg:max-w-lg overflow-hidden rounded-[24px] sm:rounded-[28px] shadow-[0_20px_60px_rgba(0,0,0,0.08)] bg-white">
             <div
               className="flex transition-transform duration-700 ease-in-out"
