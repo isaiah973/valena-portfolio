@@ -124,14 +124,14 @@ export default function ServicesSection() {
                   {service.description}
                 </p>
 
-                <motion.button
+                {/* <motion.button
                   whileHover={{ x: 4 }}
                   transition={{ duration: 0.2 }}
                   className="flex items-center gap-2 text-primary font-medium"
                 >
                   Learn More
                   <ArrowUpRight size={16} />
-                </motion.button>
+                </motion.button> */}
               </div>
             </motion.div>
           ))}
