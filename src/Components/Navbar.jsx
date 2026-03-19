@@ -199,7 +199,7 @@ export default function Navbar() {
 
             <button
               onClick={() => scrollToSection("contact")}
-              className="mt-2 w-fit cursor-pointer bg-green text-gold px-5 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:opacity-90 hover:scale-105 active:scale-95"
+              className="hidden lg:inline-flex mt-2 w-fit cursor-pointer bg-green text-gold px-5 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:opacity-90 hover:scale-105 active:scale-95"
             >
               Contact Now
             </button>
