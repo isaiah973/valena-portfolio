@@ -51,7 +51,10 @@ export default function ServicesSection() {
   };
 
   return (
-    <section id="services" className="w-full bg-white py-20 font-poppins">
+    <section
+      id="services"
+      className=" scroll-mt-24 w-full bg-white py-10 font-poppins"
+    >
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-16 lg:px-20">
         {/* SECTION INTRO */}
         <motion.div

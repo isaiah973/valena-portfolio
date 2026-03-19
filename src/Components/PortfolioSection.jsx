@@ -10,72 +10,96 @@ export default function PortfolioSection() {
       title: "Luxury Wedding Table",
       category: "Weddings",
       image: "/images/weddingtable.jpeg",
+      description:
+        "An elegant wedding table arrangement styled with refined décor, soft details, and a luxurious presentation for a memorable celebration.",
     },
     {
       id: 2,
       title: "Delicious Savoury Munchies",
       category: "Canapés",
       image: "/images/slide1.jpeg",
+      description:
+        "A selection of flavour-packed savoury bites, beautifully prepared to delight guests during intimate gatherings and stylish events.",
     },
     {
       id: 3,
       title: "Mocktail Presentation",
       category: "Mocktails",
       image: "/images/slide6.jpeg",
+      description:
+        "Refreshing mocktails served with a polished presentation, adding colour, charm, and sophistication to the guest experience.",
     },
     {
       id: 4,
       title: "Wedding Setup Details",
       category: "Weddings",
       image: "/images/reception.jpeg",
+      description:
+        "Carefully arranged reception details designed to bring beauty, harmony, and a romantic atmosphere to the wedding setting.",
     },
     {
       id: 5,
       title: "Chef Behind The Scenes",
       category: "Events",
       image: "/images/valenawithflowers.jpeg",
+      description:
+        "A glimpse into the passion, creativity, and preparation that go into delivering a seamless and unforgettable event experience.",
     },
     {
       id: 6,
       title: "Plated Fine Dining",
       category: "Events",
       image: "/images/pinktable1.jpeg",
+      description:
+        "Beautifully plated dishes presented with elegance and attention to detail, perfect for refined dining moments at special events.",
     },
     {
       id: 7,
       title: "Signature Mocktail Bar",
       category: "Mocktails",
       image: "/images/mock1.jpeg",
+      description:
+        "A stylish mocktail station featuring vibrant drinks and a sophisticated setup that enhances the atmosphere of any event.",
     },
     {
       id: 8,
       title: "Event Catering Setup",
       category: "Events",
       image: "/images/slide5.jpeg",
+      description:
+        "A professionally styled catering display created to serve guests beautifully while adding elegance to the overall event space.",
     },
     {
       id: 9,
       title: "Reception Table Styling",
       category: "Weddings",
       image: "/images/pinktable.jpeg",
+      description:
+        "A graceful reception table design featuring coordinated styling, tasteful details, and a warm, celebratory wedding ambiance.",
     },
     {
       id: 10,
       title: "Scotch Eggs",
       category: "Canapés",
       image: "/images/slide2.jpeg",
+      description:
+        "Golden, satisfying scotch eggs prepared as a rich canapé option, combining comfort, flavour, and elegant event presentation.",
     },
     {
       id: 11,
       title: "Rich Mini Beef Burgers",
       category: "Canapés",
       image: "/images/burger.jpeg",
+      description:
+        "Mini beef burgers layered with rich flavour and presented as indulgent bite-sized treats for modern celebrations and receptions.",
     },
     {
       id: 12,
-      title: "Scrispy Prawns with Sweet Chilli Sauce",
+      title: "Crispy Prawns with Sweet Chilli Sauce",
       category: "Canapés",
       image: "/images/prawn.jpeg",
+      description:
+        "Crispy prawns paired with sweet chilli sauce for a bold, crowd-pleasing canapé that balances texture, flavour, and elegance.",
     },
   ];
 
@@ -87,7 +111,10 @@ export default function PortfolioSection() {
   }, [activeFilter]);
 
   return (
-    <section className="w-full bg-bg py-20 md:py-24 font-[Poppins]">
+    <section
+      id="portfolio"
+      className="w-full bg-bg py-20 md:py-24 font-[Poppins] scroll-mt-24"
+    >
       <div className="px-5 sm:px-10 md:px-16 lg:px-14 xl:px-20">
         {/* Heading */}
         <motion.div
@@ -95,7 +122,7 @@ export default function PortfolioSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true, amount: 0.2 }}
-          className="max-w-2xl mb-10 md:mb-14"
+          className="max-w-2xl mx-auto text-center mb-12 flex flex-col items-center justify-content-center"
         >
           <p className="text-xs sm:text-sm uppercase tracking-[0.25em] text-gold mb-4">
             Portfolio
@@ -176,8 +203,7 @@ export default function PortfolioSection() {
                   </h3>
 
                   <p className="text-sm text-lightText leading-6">
-                    Beautiful presentation styled with intention, elegance, and
-                    a memorable guest experience in mind.
+                    {item.description}
                   </p>
                 </div>
               </motion.div>
