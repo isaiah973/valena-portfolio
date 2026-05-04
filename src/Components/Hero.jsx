@@ -56,7 +56,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 22 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.35 }}
-              className="text-sm sm:text-base lg:text-lg text-lightText leading-7 sm:leading-8 lg:mb-8 md:mb-4 max-w-lg"
+              className="text-sm sm:text-base lg:text-lg text-lightText leading-7 sm:leading-8 mb-4 lg:mb-8 md:mb-4 max-w-lg"
             >
               Elevate your special occasion with luxury canapés, beautifully
               prepared and professionally arranged to create a refined and
